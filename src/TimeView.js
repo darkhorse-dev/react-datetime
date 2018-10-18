@@ -190,6 +190,7 @@ var DateTimePickerTime = createClass({
 
 	disableContextMenu: function( event ) {
 		event.preventDefault();
+		event.stopPropagation();
 		return false;
 	},
 
